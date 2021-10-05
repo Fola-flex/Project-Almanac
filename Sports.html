@@ -1,0 +1,350 @@
+<html>
+<head>
+<title> Get In </title>
+<meta name="viewport" content="width=device-width,  initial-scale=1.0,
+ maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta charset="UTF-8">
+<style>
+body  {
+    background-color: lightgray;
+    background-size: auto;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    width: 100%;
+}
+
+@keyframes beauty { 
+    0% {background-image: url("fola3.png"); opacity: 50%;}
+    17% {background-image: url("eniola logo.png"); opacity: 80%;}
+    33% {background-image: url("Wizkid1.jpeg"); opacity: 80%;}
+    50% {background-image: url("jot.jpg"); opacity: 70%;}
+    67% {background-image: url("bro1.jpg"); opacity: 70%;}
+    83% {background-image: url("Sars1.jpg"); opacity: 70%;}
+    100% {background-image: url("fola3.png"); opacity: 50%;}
+}
+
+@-webkit-keyframes beauty { 
+    0% {background-image: url("fola.png"); opacity: 50%;}
+    17% {background-image: url("eniola logo.png"); opacity: 80%;}
+    33% {background-image: url("Wizkid1.jpeg"); opacity: 80%;}
+    50% {background-image: url("jot.jpg"); opacity: 70%;}
+    67% {background-image: url("bro1.jpg"); opacity: 70%;}
+    83% {background-image: url("Sars1.jpg"); opacity: 70%;}
+    100% {background-image: url("fola.png"); opacity: 50%;}
+}
+
+#fly {
+     height: 250px ;
+     padding: none;
+     margin: 0;
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bolder;
+     border: 1px solid grey;
+     display: block;
+     animation-name: beauty;
+     animation-duration: 25s;
+     animation-timing-function: ease-out;
+     animation-iteration-count: infinite;
+     max-width: 100%;
+}
+
+.navbar {
+    display: inline-block;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    max-width: 100%;
+}
+
+.navbar a{  
+    float: left;
+    display: block;
+    margin: 0px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: default;
+    max-width: 100%;
+}
+
+.navbar-fixed-top {
+   position: sticky;
+   top: 0;
+   left: 0;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+    color:black;
+    border: none;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 14px 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar a {
+        padding: 12px 12px;
+        font-size: 16px;
+        margin: 0px;
+        display: inline-block;
+        text-align: center;
+        max-width: 100%;
+    }
+    .no { 
+        display: none;
+    }
+    .dropdown .dropbtn {
+        max-width: 100%;  
+        text-align: center;
+        font-size: 16px;
+        padding: 12px 12px;
+        margin: 0px;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 310px) {
+    .navbar a {
+        padding: 12px 8px;
+        font-size: 16px;
+        margin: 0px;
+        display: inline-block;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .dropdown .dropbtn {
+        max-width: 100%;  
+        text-align: center;
+        font-size: 16px;
+        padding: 12px 8px;
+        margin: 0px;
+        display: inline-block;
+    }
+}
+
+.navbar a:hover , .dropdown:hover .dropbtn {
+    background-color: lightsteelblue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    padding: 14px 20px;
+    margin: 0; 
+    font-size: 15px;
+    border: 1px solid lightgray;
+}
+
+.dropdown-content a:hover {
+    background-color: lightsteelblue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.why {
+    color: white;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+img.me {
+    width: 90px;
+    height: 90px;
+    box-shadow: 3px 3px 3px rgba(202, 210, 223, 0.582);
+    border-radius: 2px;
+    margin: 15px;
+    max-width: 100%;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    background-color: ivory;
+    height: 115px;
+    cursor: auto;
+    border: 1px solid lightgrey;
+    font-family: Lucida Sans Regular;
+    border-radius: 10px;
+    margin: 0px 15px;
+    width: auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 330px)  {
+    .flex-container {
+    font-size: 15px;
+    }
+}
+
+.flex-container:hover {
+    background-color: lightsteelblue;
+}
+
+img.me {
+    width: 90px;
+    height: 90px;
+    box-shadow: 3px 3px 3px rgba(202, 210, 223, 0.582);
+    border-radius: 2px;
+    margin: 15px;
+    max-width: 100%;
+}
+
+img.me:hover {
+    display: block;
+    opacity: 0.6;
+    position: relative;
+    top: -5px;
+    left: -2px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.big-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    background-color: ivory;
+    flex-wrap: wrap;
+    cursor: auto;
+    border: 1px solid lightgrey;
+    font-family: Lucida Sans Regular;   
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+}
+
+.big-flex > div {
+    width: 300; 
+    height: 170;
+    padding: 20px 70px 30px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 330px) {
+    .big-flex > div {
+    width: 300; 
+    height: 170;
+    padding: 20px 10px 30px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+    }
+}
+
+</style>
+</head>
+<body>
+    <header id="fly">
+        <h1 style="font-size: 60px;">Get In</h1>
+        <p style="font-size: 20px;">The Number One News Hub</p>
+    </header>
+    <div class="navbar navbar-fixed-top">
+        <a href="Project almanac.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">News</button>
+            <div class="dropdown-content">
+               <a href="Entertainment.html">Entertainment</a>
+               <a href="Sports.html">Sports</a>
+               <a href="Fashion.html">Fashion</a>
+            </div> 
+        </div>
+        <a href="Contact.html">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Images</button>
+            <div class="dropdown-content">
+               <a href="Ejiro2.jpg">Fola</a>
+               <a href="Sars.jpg">IMG 001</a>
+               <a href="Enny.jpg">Eniola</a>
+            </div>
+        </div> 
+        <a href="About.html">About</a>
+        <p id="demo" style="float: right; color: black; font-size: 13px;" class="no"></p>
+    </div>
+   <br>
+   <br>
+   <br>
+    
+   <a href="Diogo Jota, Liverpool's Perfect Nine.html">
+        <div class="flex-container">
+            <img src="jot.jpg" class="me">
+            <div style="font-weight: bolder;"> 
+              <h4> Diogo Jota, Liverpool's Perfect Nine</h4>
+              <p style="font-size: 11px; text-align: justify;"></p>
+            </div>
+        </div>
+    </a>
+    
+    <a href="">
+    <div class="flex-container">
+        <img src="everton.jpg" class="me">
+        <h4>Battle for Top four</h4>
+    </div>
+    </a>
+    
+    <a href="">
+    <div class="flex-container">
+        <img src="troll.jpg" class="me">
+        <h4>Why always Manchester United </h4>
+    </div>
+    </a>
+
+    <a>
+    <div class="flex-container">
+        <img src="sols.jpg" class="me">
+        <h4>The Manchester United Boss talks on winning the league </h4>
+    </div>
+    </a>
+    
+    <a href="">
+    <div class="flex-container">
+        <img src="Thiago.jpeg" class="me">
+        <h4> Liverpool's midfield solution?</h4>
+    </div>
+    </a>
+    
+    <a href="">
+    <div class="flex-container">
+        <img src="Lewan.jpg" class="me">
+        <h4> No stopping Lewandowski this season</h4>
+    </div>
+    </a>
+    <br>
+    <script src="fola.js"></script>
+</body>
+
+
+</html>
